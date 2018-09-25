@@ -26,7 +26,7 @@ if(!isset($_SESSION["username"])){
   </div>
     <div class="form-group row">
       <div class="offset-sm-2 col-sm-10">
-        <a href="#"<button type="submit" class="btn btn-primary" onclick="submitChat()">Send</button></a>
+        <a href="#"><button type="submit" class="btn btn-primary" onclick="submitChat()">Send</button></a>
       </div>
     </div>
       <div class="form-group row">
