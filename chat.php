@@ -19,7 +19,7 @@ if(!isset($_SESSION["username"])){
   <form name="form1">
     <div class="form-group row">
         <p>Welcome <?php echo $_SESSION['username']; ?></p>
-        </dv>
+        </div>
       <div class="form-group">
     <label for="exampleTextarea">Your Message:</label>
     <textarea class="form-control" rows="3" id="box" name="msg"></textarea>
